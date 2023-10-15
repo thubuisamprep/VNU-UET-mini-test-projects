@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuanhbui/blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "thuanhbui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thuanhbui/blog/issues"
+  },
+  "homepage": "https://github.com/thuanhbui/blog#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
